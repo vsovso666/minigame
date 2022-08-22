@@ -1,7 +1,8 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, View } from 'react-native';
 import { Spring, animated, useSpring } from "@react-spring/native";
 
+const AnimatedView = animated(View);
 
 const GameTest = (props) => {
     const { opacity, rotateX } = useSpring({
