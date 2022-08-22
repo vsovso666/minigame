@@ -1,6 +1,6 @@
 {
-  "name": "minigame",
-  "version": "1.0.0",
+  "name": "minigame-001001",
+  "version": "1.0.1",
   "description": "minigame development",
   "main": "index.js",
   "scripts": {

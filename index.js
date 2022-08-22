@@ -1,10 +1,8 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import { Text } from 'react-native';
 
-const GameTest = (string) => {
-    <View>
-        <Text>"i am game test" + string</Text>
-    </View>
-}
+const GameTest = (props) => {
+    return <Text>AAA KKK {props.label}</Text>;
+};
 
 export default GameTest;
