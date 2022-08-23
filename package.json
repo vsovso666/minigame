@@ -1,6 +1,6 @@
 {
   "name": "minigame-001001",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "minigame development",
   "main": "index.js",
   "scripts": {
@@ -17,11 +17,13 @@
     "url": "https://github.com/vsovso666/minigame/issues"
   },
   "homepage": "https://github.com/vsovso666/minigame#readme",
+  "dependencies": {
+    "react-native-game-engine": "^1.2.0",
+    "matter-js": "^0.18.0"
+  },
   "devDependencies": {
     "@react-spring/native": "^9.5.2",
-    "matter-js": "^0.18.0",
     "react": "^17.0.2",
-    "react-native": "^0.68.2",
-    "react-native-game-engine": "^1.2.0"
+    "react-native": "^0.68.2"
   }
 }
