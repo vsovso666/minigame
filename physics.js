@@ -10,11 +10,11 @@ const Physics = (entities, { touches, time, dispatch }) => {
 
     let engine = entities.physic.engine;
 
-    console.log('dispatch', dispatch);
+    //console.log('dispatch', dispatch);
 
     touches.filter(t => t.type === 'press')
         .forEach(t => {
-            console.log(entities.Bird.body);
+            //console.log(entities.Bird.body);
             Matter.Body.setVelocity(entities.Bird.body, {
                 x: 0,
                 y: -6
